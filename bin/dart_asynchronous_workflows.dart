@@ -4,8 +4,10 @@ import 'package:dart_asynchronous_workflows/dart_asynchronous_workflows.dart'
 //     as dart_async_future;
 // import 'package:dart_asynchronous_workflows/dart_async_future_2.dart'
 //     as dart_async_future_2;
-import 'package:dart_asynchronous_workflows/dart_async_await.dart'
-    as dart_async_await;
+// import 'package:dart_asynchronous_workflows/dart_async_await.dart'
+//     as dart_async_await;
+import 'package:dart_asynchronous_workflows/dart_async_stream.dart'
+    as dart_async_stream;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_asynchronous_workflows.calculate()}!');
@@ -15,5 +17,7 @@ void main(List<String> arguments) {
   // print('------------------');
   // dart_async_future_2.main();
 
-  dart_async_await.main(arguments);
+  // dart_async_await.main(arguments);
+
+  dart_async_stream.main(arguments);
 }
